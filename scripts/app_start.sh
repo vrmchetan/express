@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/server/
+cd /home/ubuntu/
 pm2 start npm --name "Dogs" -- start
 pm2 startup
 pm2 save
